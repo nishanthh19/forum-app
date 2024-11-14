@@ -1,0 +1,6 @@
+<form action="/profile" method="POST">
+    <input type="text" name="name" value="<%= user.profile.name %>" placeholder="Name" required>
+    <textarea name="bio" placeholder="Bio"><%= user.profile.bio %></textarea>
+    <button type="submit">Update Profile</button>
+  </form>
+  
